@@ -2,7 +2,7 @@ import asyncio
 try:
     from bleak import BleakClient
 except ImportError:
-    print("Error: bleak module not found. Please install it using 'pip install bleak'.")
+    print("Error: bleak module not found. Please install it using 'sudo apt install python3-dev python3-pip' and 'pip install bleak'.")
     exit(1)
 import RPi.GPIO as GPIO
 try:
